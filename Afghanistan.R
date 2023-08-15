@@ -65,7 +65,6 @@ data_joined_full <- data_joined_full %>%
     q09_human_rights_women==5 & q22_religion_importance==1 ~ "Religiosity 1, Strongly Agree"
   ))
 
-
 freq(data_joined_full$religiosity_rights)
 
 
